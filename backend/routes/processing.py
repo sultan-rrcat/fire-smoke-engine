@@ -30,6 +30,9 @@ def start_processing(video_id: str):
 
         # 2. Spawn the processing thread
         logger.debug(f"Spawning background thread for video: {video_id}")
+
+        processing_status[video_id] = "processing"
+
         thread = Thread(
             target=process_video,
             args=(video_id, video_path),

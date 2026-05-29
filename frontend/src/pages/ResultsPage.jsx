@@ -1,14 +1,17 @@
 import VideoPanel from "../components/Video/VideoPanel"
 import DetectionChart from "../components/Charts/DetectionChart"
 import EventList from "../components/Events/EventList"
+import { useParams } from "react-router-dom"
 
-export default function ResultPage(){
-    return(
+
+export default function ResultPage() {
+    const { id } = useParams();
+    return (
         <div>
             <div>
-                <div><VideoPanel/></div>
-                <div><EventList/></div>
-                <div><DetectionChart/></div>
+                <VideoPanel videoId={id} />
+                <EventList videoId={id} />
+                <DetectionChart videoId={id} />
             </div>
         </div>
     )

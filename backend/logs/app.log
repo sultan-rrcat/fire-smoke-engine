@@ -54,3 +54,141 @@
 2026-05-27 16:36:42,127 - inference_service.py:7 - INFO - Model loading started ... 
 2026-05-27 16:36:42,247 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
 2026-05-27 16:36:42,247 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:37:36,509 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:37:36,647 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:37:36,657 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:40:50,650 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:40:50,746 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:40:50,757 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:46:23,318 - upload.py:15 - INFO - Received upload request for file: Untitled design (1).mp4
+2026-05-29 16:46:23,318 - upload.py:38 - INFO - Successfully saved video 'Untitled design (1).mp4' with ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:23,332 - processing.py:18 - INFO - Received request to process video: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:23,332 - processing.py:40 - INFO - Successfully started processing thread for video: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:25,350 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:27,351 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:29,348 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:31,339 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:33,349 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:35,349 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:37,345 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:39,348 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:41,350 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:43,346 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:45,346 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:47,348 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:49,349 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:52,281 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:54,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:56,281 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:46:58,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:00,283 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:02,279 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:04,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:06,279 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:08,280 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:10,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:12,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:14,282 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:15,689 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:18,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:20,275 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:22,277 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:24,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:25,345 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:28,274 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:30,281 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:32,273 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:34,295 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:36,279 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:38,291 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:40,295 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:42,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:44,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:46,281 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:48,292 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:50,278 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:52,290 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:54,285 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:56,288 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:47:58,293 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:00,289 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:02,292 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:04,288 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:06,293 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:08,286 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:10,286 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:12,286 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:14,285 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:16,288 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:18,280 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:20,290 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:22,289 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:24,284 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:48:34,602 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:49:34,290 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:50:34,603 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:51:31,985 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:51:32,089 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:51:32,093 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:51:34,603 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:51:54,281 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:51:54,379 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:51:54,379 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:52:34,605 - processing.py:62 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:53:09,290 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:53:09,333 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:53:09,342 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:53:34,591 - processing.py:65 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:54:37,049 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:54:37,098 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:54:37,100 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:54:37,109 - processing.py:65 - WARNING - Status requested for unknown or unprocessed video ID: ccab759d-237a-4824-aaff-b0ce704b07c1
+2026-05-29 16:54:41,810 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:54:41,915 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:54:41,922 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:54:55,810 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:54:55,860 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:54:55,860 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:55:05,993 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 16:55:06,036 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 16:55:06,040 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 16:55:14,820 - upload.py:15 - INFO - Received upload request for file: Untitled design (1).mp4
+2026-05-29 16:55:14,835 - upload.py:38 - INFO - Successfully saved video 'Untitled design (1).mp4' with ID: 1f72c3a6-682e-4df9-9827-f31f739deaa1
+2026-05-29 16:55:14,840 - processing.py:18 - INFO - Received request to process video: 1f72c3a6-682e-4df9-9827-f31f739deaa1
+2026-05-29 16:55:14,840 - processing.py:43 - INFO - Successfully started processing thread for video: 1f72c3a6-682e-4df9-9827-f31f739deaa1
+2026-05-29 17:03:07,468 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:03:07,518 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:03:07,518 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:03:12,786 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:03:12,829 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:03:12,833 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:03:27,210 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:03:27,256 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:03:27,259 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:03:31,058 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:03:31,100 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:03:31,103 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:03:56,435 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:03:56,549 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:03:56,556 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:04:03,298 - upload.py:15 - INFO - Received upload request for file: Untitled design (1).mp4
+2026-05-29 17:04:03,305 - upload.py:38 - INFO - Successfully saved video 'Untitled design (1).mp4' with ID: b3d1af1d-2daf-4c4f-8a50-0a1c3795fee7
+2026-05-29 17:04:03,308 - processing.py:18 - INFO - Received request to process video: b3d1af1d-2daf-4c4f-8a50-0a1c3795fee7
+2026-05-29 17:04:03,345 - processing.py:43 - INFO - Successfully started processing thread for video: b3d1af1d-2daf-4c4f-8a50-0a1c3795fee7
+2026-05-29 17:08:54,464 - upload.py:15 - INFO - Received upload request for file: Untitled design (1).mp4
+2026-05-29 17:08:54,482 - upload.py:38 - INFO - Successfully saved video 'Untitled design (1).mp4' with ID: 462dbc58-63cb-4092-8a4d-984bc5a56fac
+2026-05-29 17:08:54,488 - processing.py:18 - INFO - Received request to process video: 462dbc58-63cb-4092-8a4d-984bc5a56fac
+2026-05-29 17:08:54,489 - processing.py:43 - INFO - Successfully started processing thread for video: 462dbc58-63cb-4092-8a4d-984bc5a56fac
+2026-05-29 17:15:10,966 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:15:11,119 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:15:11,126 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:17:32,233 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:17:32,274 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:17:32,277 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:17:39,137 - inference_service.py:7 - INFO - Model loading started ... 
+2026-05-29 17:17:39,266 - inference_service.py:9 - INFO - Model: C:\Users\trainee\Desktop\Projects\fire-smoke-engine\backend\models\yolov26n\best.pt loaded sucessfully.
+2026-05-29 17:17:39,275 - app.py:15 - INFO - Logging has been successfully set up.
+2026-05-29 17:17:51,041 - upload.py:15 - INFO - Received upload request for file: Untitled design (1).mp4
+2026-05-29 17:17:51,048 - upload.py:38 - INFO - Successfully saved video 'Untitled design (1).mp4' with ID: 44eadded-e161-48f0-85e5-46ce75e9c435
+2026-05-29 17:17:51,056 - processing.py:18 - INFO - Received request to process video: 44eadded-e161-48f0-85e5-46ce75e9c435
+2026-05-29 17:17:51,057 - processing.py:43 - INFO - Successfully started processing thread for video: 44eadded-e161-48f0-85e5-46ce75e9c435

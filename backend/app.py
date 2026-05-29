@@ -38,3 +38,12 @@ def root():
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+
+
+from fastapi.staticfiles import StaticFiles
+
+app.mount(
+    "/outputs",
+    StaticFiles(directory="outputs"),
+    name="outputs"
+)

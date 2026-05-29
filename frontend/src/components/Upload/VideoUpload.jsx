@@ -10,11 +10,16 @@ export default function VideoUpload() {
     const [error, setError] = useState(null);
 
     const onDrop = async (acceptedFiles) => {
-        const file = acceptedFiles;
+        console.log("acceptedFiles:", acceptedFiles);
+        console.log("first file:", acceptedFiles[0]);
+        const file = acceptedFiles[0];
         if (!file) return;
 
         const formData = new FormData();
         formData.append("file", file);
+        for (const [key, value] of formData.entries()) {
+            console.log(key, value);
+        }
         setIsUploading(true);
         setError(null);
 
@@ -22,7 +27,7 @@ export default function VideoUpload() {
             // 1. Upload the video
             // 1. Upload the video (Updated with Headers)
             const uploadRes = await axios.post(
-                `${BACKEND_API}/upload-video`, 
+                `${BACKEND_API}/upload-video`,
                 formData,
                 {
                     headers: {
@@ -37,10 +42,12 @@ export default function VideoUpload() {
 
             // 3. Navigate to processing page
             navigate(`/processing/${videoId}`);
-            
+
         } catch (err) {
             console.error("Upload/Processing Error:", err);
-            
+
+            console.log(err.response?.data);
+
             // --- NEW ERROR HANDLING LOGIC ---
             const detail = err.response?.data?.detail;
             let errorMessage = "An error occurred during upload.";
@@ -72,7 +79,7 @@ export default function VideoUpload() {
     });
 
     return (
-        <div 
+        <div
             {...getRootProps()}
             className={`border-2 border-dashed p-20 rounded-xl transition text-center
                 ${isUploading ? 'border-slate-500 cursor-not-allowed opacity-50' : 'border-slate-600 cursor-pointer hover:border-blue-500'}`
@@ -90,7 +97,7 @@ export default function VideoUpload() {
                         <p className="text-slate-400 mt-2">mp4 / avi / mov</p>
                     </>
                 )}
-                
+
                 {/* Display backend errors to the user if things fail */}
                 {error && (
                     <p className="text-red-500 mt-4 font-semibold">{error}</p>
